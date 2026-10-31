@@ -1,11 +1,4 @@
-// Refresh every 300 s
-REFRESH_INTERNAL:300
-
-// Activate LYTR3 on 31 Oct 2026, 10:00-14:00 UTC, FL105-FL155 (limits in feet)
-LYTR3:261031:261031:0:1000:1400:10500:15500:Exercise
-
-// Same, but without a limit override (uses the area's own LIMITS)
-LYTR4A:261031:261031:0:1000:1400
-
-// Switch an area on all day, every day, until you remove the line
+REFRESH_INTERVAL:60
+LYTR3:261031:261031:0:0000:2359:10500:15500:Exercise
+LYTR4A:261031:261031:0:0000:2359
 LYD6:1
